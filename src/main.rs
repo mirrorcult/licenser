@@ -22,8 +22,6 @@ fn main() -> std::io::Result<()> {
             let templates_path = env::current_exe()?.parent().unwrap().join("templates");
             let template_file = templates_path.join(license_name);
 
-            println!("{:?} {:?} {:?} {:?}", current_dir, output_file, templates_path, template_file);
-
             fs::copy(template_file, output_file)?;
         } 
         else {
