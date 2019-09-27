@@ -13,9 +13,23 @@ Default file name is `LICENSE`.
 ## Valid License Names
 
 ```
-agplv3
+agpl
+gplv2
 gplv3
 mit
 apache
 wtfpl
+afl
+artistic
+bsd2
+bsd3
+bsl
+ccbysa
+ccby
+lgplv2.1
+lgplv3
+postgresql
 ```
+
+Feel free to contribute and add more--just add a file in `/templates` and a string in `src/main.rs`.
+

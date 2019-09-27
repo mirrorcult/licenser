@@ -1,7 +1,7 @@
 use std::{env, fs};
 
-const VALID_LICENSES: [&'static str; 15] = ["agpl", "gplv2", "gplv3", "mit", "apache", "wtfpl", "afl", "artistic", "bsd2",
-                                           "bsd3", "bsl", "ccbysa", "ccby4.0", "lgplv2.1", "lgplv3", "postgresql"];
+const VALID_LICENSES: [&'static str; 16] = ["agpl", "gplv2", "gplv3", "mit", "apache", "wtfpl", "afl", "artistic", "bsd2",
+                                            "bsd3", "bsl", "ccbysa", "ccby", "lgplv2.1", "lgplv3", "postgresql"];
 
 fn main() -> std::io::Result<()> {
     let args: Vec<String> = env::args().collect();
