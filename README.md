@@ -26,7 +26,7 @@ bsd3
 bsl
 ccbysa
 ccby
-lgplv2.1
+lgplv21 (lgplv21 and not v2.1 because github thinks a .1 file is a "roff" file for some reason)
 lgplv3
 postgresql
 ```
