@@ -23,6 +23,7 @@ fn main() -> std::io::Result<()> {
             let template_file = templates_path.join(license_name);
 
             fs::copy(template_file, output_file)?;
+            println!("Successfully added license \'{}\' at location \'{}\'!", license_name, file_name)
         } 
         else {
             panic!("Invalid license name!");

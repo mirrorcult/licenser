@@ -4,11 +4,18 @@ Basic CLI utility that adds a LICENSE file in your working directory given a cer
 
 ## Usage
 
-```bash
-licenser license-name [file-name]
-```
+> licenser license-name [license-file]
 
-Default file name is `LICENSE`.
+```bash
+$ licenser mit LICENSE-MIT
+$ licenser apache LICENSE # defaults to LICENSE
+
+# LICENSE-MIT:
+    > Permission is hereby granted, free of charge...
+
+# LICENSE
+    > TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION...
+```
 
 ## Valid License Names
 
