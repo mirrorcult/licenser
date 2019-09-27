@@ -5,7 +5,7 @@ Basic CLI utility that adds a LICENSE file in your working directory given a cer
 ## Usage
 
 ```bash
-licenser license-name [file_name]
+licenser license-name [file-name]
 ```
 
 Default file name is `LICENSE`.
